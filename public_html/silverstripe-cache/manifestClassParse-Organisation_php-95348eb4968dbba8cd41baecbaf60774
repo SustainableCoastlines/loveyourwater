@@ -1,0 +1,15 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'Organisation',
+    'extends' => 'DataObject',
+  ),
+  1 => 
+  array (
+    'className' => 'OrganisationImage_Image',
+    'extends' => 'Image',
+  ),
+);
+				$interfaces = array (
+);

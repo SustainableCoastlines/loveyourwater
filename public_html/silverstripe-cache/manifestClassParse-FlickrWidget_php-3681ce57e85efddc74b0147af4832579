@@ -1,0 +1,10 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'FlickrWidget',
+    'extends' => 'Widget',
+  ),
+);
+				$interfaces = array (
+);

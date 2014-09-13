@@ -1,0 +1,15 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'RegisterForm',
+    'extends' => 'Form',
+  ),
+  1 => 
+  array (
+    'className' => 'joinEmail_SignUpMessage',
+    'extends' => 'Email',
+  ),
+);
+				$interfaces = array (
+);

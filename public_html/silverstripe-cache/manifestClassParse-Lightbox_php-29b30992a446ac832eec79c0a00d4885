@@ -1,0 +1,10 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'Lightbox',
+    'extends' => 'ImageGalleryUI',
+  ),
+);
+				$interfaces = array (
+);

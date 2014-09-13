@@ -1,0 +1,96 @@
+article.LearnPage{
+
+	margin-top: 190px;
+
+	@include lessThanTablet {
+		margin-top: 84px;
+	}
+
+	.Social{
+		@include span(12);
+		margin-bottom:15px;
+	}
+
+	.SecondaryBlock{
+		@include span(6);
+		@include tablet {
+			@include span(12 last);
+		}
+
+		.intro-text{
+			p{
+				padding: 0 0 20px 0;
+				@include tablet {
+					font-size: 1.2em;
+					padding: 0 10px 20px 10px;
+				}
+
+			}
+		}
+
+		.downloads{
+			@include box-sizing(border-box);
+			line-height: 140%;
+			list-style-type: none;
+			background: #fff;
+			border: 1px solid #cccccc;
+			padding: 10px;
+			margin-bottom: 15px;
+
+			.downloads-img img{
+				width: 100%;
+				border: 1px solid #cccccc;
+			}
+
+			&:nth-child(odd){
+				@include span(3 of 6);
+				@include mobile{
+					@include span(6 of 6);
+				}
+			}
+
+			&:nth-child(even){
+				@include span(3 of 6 at 4 last);
+				@include mobile{
+					@include span(6 of 6);
+				}
+			}
+
+			a {
+				font-family:helvetica, arial, sans-serif;
+				text-decoration: none;
+				color:#1066B2;
+
+				h4{
+					font-size:14px;
+					line-height:16px;
+					padding: 0 0 10px 0
+				}
+
+				p{
+					font-size:12px;
+					line-height: 14px;
+					padding: 0 0 0 74px;
+				}
+			}
+
+			.icon{
+				float:left;
+			}
+
+			.icon-text{
+				margin: 10px 0 0 0;
+			}
+		}
+
+
+	}
+	.PrimaryBlock{
+		@include span(6 at 7);
+
+		@include tablet {
+			@include span(12 last);
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'FlickrService',
+    'extends' => 'RestfulService',
+  ),
+  1 => 
+  array (
+    'className' => 'FlickrService_Photos',
+    'extends' => 'ViewableData',
+  ),
+);
+				$interfaces = array (
+);

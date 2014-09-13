@@ -1,0 +1,15 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'EventReminder',
+    'extends' => 'DataObject',
+  ),
+  1 => 
+  array (
+    'className' => 'EventReminderEmail',
+    'extends' => 'Email',
+  ),
+);
+				$interfaces = array (
+);

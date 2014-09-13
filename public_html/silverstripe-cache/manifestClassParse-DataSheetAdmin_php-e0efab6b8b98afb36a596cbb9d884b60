@@ -1,0 +1,15 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'DataSheetAdmin',
+    'extends' => 'ModelAdmin',
+  ),
+  1 => 
+  array (
+    'className' => 'DataSheetAdmin_CollectionController',
+    'extends' => 'ModelAdmin_CollectionController',
+  ),
+);
+				$interfaces = array (
+);

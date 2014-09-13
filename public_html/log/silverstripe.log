@@ -1,0 +1,29 @@
+[09-Nov-2010 07:01:50] Warning at mysite/code/MyEvents.php line 233: Missing argument 1 for MyEvents_Controller::uploadform(), called in /Applications/MAMP/htdocs/lyc2010/sapphire/core/ViewableData.php on line 369 and defined (http://localhost/lyc2010/my-events/upload/28)
+[09-Nov-2010 07:01:56] Warning at mysite/code/MyEvents.php line 233: Missing argument 1 for MyEvents_Controller::uploadform(), called in /Applications/MAMP/htdocs/lyc2010/sapphire/core/ViewableData.php on line 369 and defined (http://localhost/lyc2010/my-events/upload/28)
+[09-Nov-2010 07:37:45] Warning at sapphire/core/ManifestBuilder.php line 461: There are two files both containing the same class: '/Applications/MAMP/htdocs/lyc2010/mysite/code/objects/City.php' and '/Applications/MAMP/htdocs/lyc2010/mysite/code/objects/Staff.php'. This might mean that the wrong code is being used. (http://localhost/lyc2010/dev/build?flush=1)
+[09-Nov-2010 07:38:32] Error at sapphire/forms/FieldSet.php line 276: FieldSet::addFieldToTab() Tried to add a tab to object 'Tab' named 'Content' - 'Images' didn't exist. (http://localhost/lyc2010/admin/getitem?ID=29&ajax=1)
+[09-Nov-2010 07:43:41] Error at sapphire/forms/FieldSet.php line 276: FieldSet::addFieldToTab() Tried to add a tab to object 'Tab' named 'Content' - 'Images' didn't exist. (http://localhost/lyc2010/admin/getitem?ID=29&ajax=1)
+[09-Nov-2010 07:44:22] Error at sapphire/forms/FieldSet.php line 276: FieldSet::addFieldToTab() Tried to add a tab to object 'Tab' named 'Content' - 'Image' didn't exist. (http://localhost/lyc2010/admin/getitem?ID=29&ajax=1)
+[09-Nov-2010 07:45:35] Error at sapphire/forms/FieldSet.php line 276: FieldSet::addFieldToTab() Tried to add a tab to object 'Tab' named 'Content' - 'Main' didn't exist. (http://localhost/lyc2010/admin/getitem?ID=29&ajax=1)
+[09-Nov-2010 07:52:05] Error at sapphire/core/model/MySQLDatabase.php line 536: Couldn't run query: 
+SELECT "Staff"."ClassName", "Staff"."Created", "Staff"."LastEdited", "Staff"."Name", "Staff"."Role", "Staff"."Email", "Staff"."Phone", "Staff"."FacebookLink", "Staff"."CityTeam", "Staff"."PhotoID", "Staff"."WhosinPageID", "Staff"."ID", CASE WHEN "Staff"."ClassName" IS NOT NULL THEN "Staff"."ClassName" ELSE 'Staff' END AS "RecordClassName"
+FROM "Staff"
+WHERE ("WhosinPageID" = '29')
+ORDER BY Created DESC
+LIMIT 10 OFFSET 0 
+
+Unknown column 'Staff.WhosinPageID' in 'field list' (http://localhost/lyc2010/admin/getitem?ID=29&ajax=1)
+[09-Nov-2010 08:29:10] Error at sapphire/core/model/MySQLDatabase.php line 536: Couldn't run query: 
+SELECT "Staff"."ClassName", "Staff"."Created", "Staff"."LastEdited", "Staff"."Name", "Staff"."Role", "Staff"."Email", "Staff"."Phone", "Staff"."FacebookLink", "Staff"."TeamAuckland", "Staff"."TeamWellington", "Staff"."TeamChristchurch", "Staff"."TeamWestcoast", "Staff"."PhotoID", "Staff"."WhosinPageID", "Staff"."ID", CASE WHEN "Staff"."ClassName" IS NOT NULL THEN "Staff"."ClassName" ELSE 'Staff' END AS "RecordClassName"
+FROM "Staff"
+WHERE ("WhosinPageID" = '30')
+ORDER BY Created ASC
+LIMIT 10 OFFSET 0 
+
+Unknown column 'Staff.TeamAuckland' in 'field list' (http://localhost/lyc2010/admin/EditForm/field/Staff_Members?ctf[Staff_Members][start]=0&ctf[Staff_Members][per_page]=10&ctf[Staff_Members][showall]=0&ctf[Staff_Members][sort]=Created&ctf[Staff_Members][sort_dir]=DESC&ctf[Staff_Members][search]=&ctf[Staff_Members][filter]=)
+[09-Nov-2010 08:29:21] Warning at sapphire/core/ViewableData.php line 268: strpos() expects parameter 1 to be string, array given (http://localhost/lyc2010/admin)
+[10-Nov-2010 03:16:00] Error at sapphire/core/Core.php line 328: Bad class to singleton() - ImageGalleryPage (http://localhost/lyc2010/admin/EditForm/field/GetInvolvedDownloads/EditUploadedForm?ctf[GetInvolvedDownloads][start]=0&ctf[GetInvolvedDownloads][per_page]=10&ctf[GetInvolvedDownloads][showall]=0&ctf[GetInvolvedDownloads][sort]=&ctf[GetInvolvedDownloads][sort_dir]=&ctf[GetInvolvedDownloads][search]=&ctf[GetInvolvedDownloads][filter]=&ctf[GetInvolvedDownloads][view]=)
+[10-Nov-2010 03:16:15] Error at sapphire/core/Core.php line 328: Bad class to singleton() - ImageGalleryPage (http://localhost/lyc2010/admin/EditForm/field/GetInvolvedDownloads?ctf[GetInvolvedDownloads][start]=0&ctf[GetInvolvedDownloads][per_page]=10&ctf[GetInvolvedDownloads][showall]=0&ctf[GetInvolvedDownloads][sort]=&ctf[GetInvolvedDownloads][sort_dir]=&ctf[GetInvolvedDownloads][search]=&ctf[GetInvolvedDownloads][filter]=&ctf[GetInvolvedDownloads][view]=)
+[10-Nov-2010 03:16:17] Error at sapphire/core/Core.php line 328: Bad class to singleton() - ImageGalleryPage (http://localhost/lyc2010/admin)
+[10-Nov-2010 03:17:46] Error at sapphire/core/Core.php line 328: Bad class to singleton() - ImageGalleryPage (http://localhost/lyc2010/admin)
+[10-Nov-2010 03:43:21] Error at sapphire/core/model/DataObject.php line 2762: Bad RecordClassName '' and $baseClass not set (http://localhost/lyc2010/admin/EditForm/field/GetInvolvedDownloads/UploadifyForm/field/UploadedFiles/upload?ctf[GetInvolvedDownloads][start]=0&ctf[GetInvolvedDownloads][per_page]=10&ctf[GetInvolvedDownloads][showall]=0&ctf[GetInvolvedDownloads][sort]=&ctf[GetInvolvedDownloads][sort_dir]=&ctf[GetInvolvedDownloads][search]=&ctf[GetInvolvedDownloads][filter]=&ctf[GetInvolvedDownloads][view]=)

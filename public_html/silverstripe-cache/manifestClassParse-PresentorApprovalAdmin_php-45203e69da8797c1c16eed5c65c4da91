@@ -1,0 +1,10 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'PresentorApprovalAdmin',
+    'extends' => 'ModelAdmin',
+  ),
+);
+				$interfaces = array (
+);

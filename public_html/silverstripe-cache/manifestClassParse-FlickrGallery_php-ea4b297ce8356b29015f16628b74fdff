@@ -1,0 +1,15 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'FlickrGallery',
+    'extends' => 'Page',
+  ),
+  1 => 
+  array (
+    'className' => 'FlickrGallery_Controller',
+    'extends' => 'Page_Controller',
+  ),
+);
+				$interfaces = array (
+);

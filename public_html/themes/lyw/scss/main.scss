@@ -1,0 +1,26 @@
+@import "thirdparty/_core.scss";
+
+@import "includes/_settings.scss";
+@import "includes/_mixins.scss";
+@import "includes/_typography.scss";
+
+@import "layout/_layout.scss";
+@import "layout/_header.scss";
+@import "layout/_footer.scss";
+@import "layout/_form.scss";
+@import "layout/_oldlayout.scss";
+
+@import "pages/_home.scss";
+@import "pages/_learnpage.scss";
+@import "pages/_cleanuppage.scss";
+@import "pages/_aboutpage.scss";
+@import "pages/_page.scss";
+@import "pages/_myevent.scss";
+
+
+@import "thirdparty/_html5.reset.scss";
+
+@import "includes/_owl.carousel.scss";
+@import "includes/_owl.theme.scss";
+@import "includes/_owl.transitions.scss";
+@import "includes/_owl.carousel.custom.scss";

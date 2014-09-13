@@ -1,0 +1,15 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'DataEntryPage',
+    'extends' => 'Page',
+  ),
+  1 => 
+  array (
+    'className' => 'DataEntryPage_Controller',
+    'extends' => 'Page_Controller',
+  ),
+);
+				$interfaces = array (
+);

@@ -1,0 +1,15 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'HowItWorksPage',
+    'extends' => 'Page',
+  ),
+  1 => 
+  array (
+    'className' => 'HowItWorksPage_Controller',
+    'extends' => 'Page_Controller',
+  ),
+);
+				$interfaces = array (
+);

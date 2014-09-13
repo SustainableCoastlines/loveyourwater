@@ -1,0 +1,253 @@
+article.MyEvents{
+
+	margin-top: 225px;
+
+	@include lessThanTablet {
+		margin-top: 84px;
+	}
+
+	.Social{
+		@include span(12);
+		margin-bottom:15px;
+	}
+
+	.SecondaryBlock{
+		.home-intro{
+			p{
+				font-size: 1.5em;
+				color: #1066b2;
+			}
+		}
+
+		.account-links{
+			.btn{
+				margin-top: 10px;
+				margin-bottom: 5px;
+				margin-left: -3px;
+				float: left !important;
+				cursor: pointer !important;
+				background-color: $button-color;
+				color: #fff;
+				padding: 5px 20px 5px 20px;
+				text-decoration: none;
+
+				a{
+					color: #FFF;
+					text-decoration: none;
+				}
+			}
+		}
+
+
+		@include span(4);
+		@include tablet {
+			@include span(12 last);
+		}
+	}
+
+	$RowLineHeight : 35px;
+
+	.PrimaryBlock{
+		@include span(8 at 5);
+
+		.form-box{
+			.Actions{
+				padding:0;
+				margin:0;
+				input.action{
+					border-style:none;
+				}
+			}
+
+			#RegisterForm_RegisterForm_error{
+				border-bottom: 1px solid #ccc;
+				font-size: .8em;
+				padding:10px;
+			}
+
+			.message.bad{
+				color: red;
+			}
+
+			@include box-sizing(border-box);
+			background: #FFF;
+			border: 1px solid #CCC;
+			margin-bottom: 20px;
+
+			input.action{
+				background-color: $button-color;
+				color: #fff;
+				font-size: .8em;
+				padding:10px;
+			}
+
+			.MessageBox{
+				font-size: .8em;
+				color: #1066b2;
+				background-color: #f3f3f3;
+				line-height: 1;
+
+				p{
+					padding: 15px 20px 15px 10px
+				}
+
+				&.End{
+					border-top: 1px solid #CCC;
+					border-bottom: none;
+				}
+			}
+
+			.Row{
+				border-bottom: 1px solid #CCC;
+				@include box-sizing(border-box);
+
+				&.HeaderText{
+					h1{
+						color: $font-color-active;
+						padding: 10px;
+					}
+				}
+				&.CField{
+					position:relative;
+					border:none;
+					overflow: hidden;
+					height: 85px;
+
+					img{
+						position: absolute;
+						right: 20px;
+						top: 20px;
+					}
+				}
+			}
+
+			.field{
+
+				&.googlemapselectable{
+					height: 326px;
+					.mapdetails,
+					label{
+						display:none;
+					}
+
+					#map_Location{
+						width: 633px !important;
+						margin-top: 5px !important;
+					}
+				}
+
+				&.CompositeField{
+					height:auto;
+				}
+
+				@extend .Row;
+				height:$RowLineHeight;
+
+				input[type=file]{
+					padding-top: 5px;
+				}
+
+				input[type=text],
+				input[type=password]{
+					border: none;
+					padding: 6px;
+					color: #1068B2;
+					font-size: 16px;
+					line-height: 16px;
+					font-weight: normal;
+					font-family: Helvetica, Arial, sans-serif;
+					width: 300px;
+					background-color: #fff;
+					padding-top: 6px;
+					margin-top: 3px;
+
+					@include input-placeholder {
+						color: #ccc;
+						font-size: .8em;
+					}
+				}
+
+				&.checkbox{
+					border:none;
+					position:relative;
+					padding-top:10px;
+					label{
+						font-weight: normal;
+						padding:0;
+						margin:0;
+						width:85%;
+						float:left;
+						border:none;
+						padding: 5px 0px;
+						line-height: 1.4;
+					}
+					width: 493px;
+					float: left;
+				}
+
+				input[type=checkbox]{
+					float:left;
+					margin: 24px 20px;
+				}
+
+				&.simplehtmleditor{
+					height:215px;
+				}
+
+				input[type=checkbox] + label:before{
+					content: '.';
+					background: {
+						color: #FFFFFF;
+						image: url('../img/form/RadioHome.png');
+						repeat: no-repeat;
+						position: top left;
+					}
+					display: block;
+					text-indent: -9999px;
+					width: 22px;
+					height: 22px;
+					position: absolute;
+					left: 18px;
+					top: 30px;
+
+					.no-ie9 & {
+						display: none;
+					}
+				}
+
+				input[type=checkbox]:checked + label:before {
+					background-position: top right;
+				}
+			}
+
+			label{
+				font-size: .8em;
+				font-weight: bold;
+				color: $font-color-active;
+				height: $RowLineHeight;
+				display: block;
+				border-right: 1px solid #ccc;
+				padding-right: 0px;
+				padding-left: 10px;
+				margin-right: 20px;
+				width: 140px;
+				line-height: $RowLineHeight;
+			}
+		}
+
+
+		@include tablet {
+			@include span(12 last);
+		}
+	}
+
+	div.wysiwyg{
+		border:none;
+		width:98% !important;
+		height: 200px;
+		iframe{
+			min-height: 200px !important;
+		}
+	}
+}
+

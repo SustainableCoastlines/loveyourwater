@@ -1,0 +1,92 @@
+p {
+    margin: 0 0 20px 0;
+    font-size: 12px;
+    line-height: 140%;
+    color: #263F71;
+}
+h1 {
+    margin: 0 0 16px 0;
+    font-size: 26px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 120%;
+    color: #1068b2;
+	text-shadow:1px 1px 0 #FFF;
+}
+h2 {
+    margin: 0 0 20px 0;
+    font-size: 24px;   
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 120%;
+    color: #1068b2;
+}
+h3 {
+    margin: 0px;
+    font-size: 22px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 100%;
+    color: #1068b2;
+}
+
+h4, h5, h6, address {
+	color: #1068b2;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+/*.typography p a {
+    color: #FF00FF;
+}*/
+
+/* TABLE STYLING 
+-------------------------------------------- */
+.typography table {
+    border-collapse:collapse;
+}	
+.typography table td {
+    vertical-align: top;
+    line-height: 140%;
+}
+.typography table th {
+    text-align: left;
+}
+.jqTransformTextarea td {
+    border: none;
+}
+
+/* WYSIWYG EDITOR ALIGNMENT CLASSES 
+-------------------------------------------- */
+.typography .left {
+    text-align: left;
+}
+.typography .center {
+    text-align: center;
+}
+.typography .right {
+    text-align: right;
+}
+
+/* IMAGES 
+-------------------------------------------- */
+.typography img {
+    border: none;
+}
+.typography img.right {
+    float: right;
+    margin-left: 20px;
+}
+.typography img.left {
+    float: left;
+}
+.typography img.leftAlone {
+    float: left;
+    margin-right: 100%;
+}
+.typography img.center {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

@@ -1,0 +1,33 @@
+####################################################
+Flickrservice Moudle
+####################################################
+
+Maintainer Contact
+-----------------------------------------------
+Will Rossiter (wrossiter)
+<will (at) silverstripe (dot) com>
+
+Requirements
+-----------------------------------------------
+
+Documentation
+-----------------------------------------------
+http://doc.silverstripe.com/doku.php?id=modules:flickrservice
+
+Installation Instructions
+-----------------------------------------------
+See INSTALL
+
+Usage Overview
+-----------------------------------------------
+See INSTALL
+
+Known issues
+-----------------------------------------------
+If you are still using deprecated all-in-one mashups module, please remove it before installing this. 
+All other functionalities which were available in mashups module are now available in separate modules. 
+Check - YoutubeService, MetablogService.
+
+
+Future works
+-----------------------------------------------

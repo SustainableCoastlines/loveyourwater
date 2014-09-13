@@ -1,0 +1,10 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'MultiSelectField',
+    'extends' => 'CheckboxSetField',
+  ),
+);
+				$interfaces = array (
+);

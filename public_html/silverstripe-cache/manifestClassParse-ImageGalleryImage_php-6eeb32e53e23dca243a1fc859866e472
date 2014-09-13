@@ -1,0 +1,10 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'ImageGalleryImage',
+    'extends' => 'Image',
+  ),
+);
+				$interfaces = array (
+);

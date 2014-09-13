@@ -1,0 +1,93 @@
+/* 
+
+jFlow Slider Styles
+
+*/
+
+#container {
+    width: 800px;
+    height: 350px;
+    position: relative;
+    border-top: 5px solid #999;
+    border-bottom: 5px solid #999;
+    margin: 0 auto;
+}
+
+/*#slide1 span, #slide2 span, #slide3 span {
+    background: url("../images/contentBg.png") repeat top left transparent;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+}
+
+.jFlowSlideContainer a {
+    color: #F90;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.jFlowSlideContainer a:hover {
+    text-decoration: none;
+    border-bottom: 1px dotted white;
+}
+
+.jFlowSlideContainer a:focus {
+    position: relative;
+    top: 1px;
+}*/
+
+.jFlowNext div {
+    background:url("../images/jflow/arrows.png") no-repeat scroll 0 -35px transparent;
+    height:130px;
+    position:absolute;
+    width:50px;
+    cursor:pointer;
+}
+
+.jFlowPrev div {
+    background:url("../images/jflow/arrows.png") no-repeat scroll -84px -35px transparent;
+    height:130px;
+    position:absolute;
+    width:50px;
+    cursor:pointer;
+}
+
+.jFlowNextRelatedBox div {
+    top:191px;
+    right: 21px;
+
+}
+
+.jFlowPrevRelatedBox div {
+    top:191px;
+    left: 15px;
+}
+
+
+.jFlowNextFeature div {
+    top:201px;
+    right: 12px;
+
+}
+
+.jFlowPrevFeature div {
+    top:201px;
+    left: 6px;
+}
+
+.jFlowPrev div:hover {
+    background-position: -84px -235px;
+}
+
+.jFlowNext div:hover {
+    background-position: 0px -235px;
+}
+
+.jFlowPrevTwit div {
+    display: none;
+}
+
+.jFlowNextTwit div {
+    display: none;
+}

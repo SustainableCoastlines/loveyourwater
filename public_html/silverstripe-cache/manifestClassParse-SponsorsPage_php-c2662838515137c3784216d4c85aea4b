@@ -1,0 +1,15 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'SponsorsPage',
+    'extends' => 'Page',
+  ),
+  1 => 
+  array (
+    'className' => 'SponsorsPage_Controller',
+    'extends' => 'Page_Controller',
+  ),
+);
+				$interfaces = array (
+);

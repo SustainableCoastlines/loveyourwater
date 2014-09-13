@@ -1,0 +1,77 @@
+The page at http://localhost says:<<<<!DOCTYPE html><html><head><title>POST /lyc2010/admin/EditForm/field/GetInvolvedDownloads/UploadifyForm/field/UploadedFiles/upload?ctf[GetInvolvedDownloads][start]=0&amp;ctf[GetInvolvedDownloads][per_page]=10&amp;ctf[GetInvolvedDownloads][showall]=0&amp;ctf[GetInvolvedDownloads][sort]=&amp;ctf[GetInvolvedDownloads][sort_dir]=&amp;ctf[GetInvolvedDownloads][search]=&amp;ctf[GetInvolvedDownloads][filter]=&amp;ctf[GetInvolvedDownloads][view]=</title><style type="text/css">body { background-color:#eee; margin:0; padding:0; font-family:Helvetica,Arial,sans-serif; }.info { border-bottom:1px dotted #333; background-color:#ccdef3; margin:0; padding:6px 12px; }.info h1 { margin:0; padding:0; color:#333; letter-spacing:-2px; }.header { margin:0; border-bottom:6px solid #ccdef3; height:23px; background-color:#666673; padding:4px 0 2px 6px; background-image:url(http://localhost/lyc2010/cms/images/mainmenu/top-bg.gif); }.trace { padding:6px 12px; }.trace li { font-size:14px; margin:6px 0; }pre { margin-left:18px; }pre span { color:#999;}pre .error { color:#f00; }.pass { margin-top:18px; padding:2px 20px 2px 40px; color:#006600; background:#E2F9E3 url(http://localhost/lyc2010/cms/images/alert-good.gif) no-repeat scroll 7px 50%; border:1px solid #8DD38D; }.fail { margin-top:18px; padding:2px 20px 2px 40px; color:#C80700; background:#FFE9E9 url(http://localhost/lyc2010/cms/images/alert-bad.gif) no-repeat scroll 7px 50%; border:1px solid #C80700; }.failure span { color:#C80700; font-weight:bold; }</style></head><body><div class="header"><img src="http://localhost/lyc2010/cms/images/mainmenu/logo.gif" width="26" height="23" /></div><div class="info error"><h1>[User Error] Bad RecordClassName '' and $baseClass not set</h1><h3>POST /lyc2010/admin/EditForm/field/GetInvolvedDownloads/UploadifyForm/field/UploadedFiles/upload?ctf[GetInvolvedDownloads][start]=0&amp;ctf[GetInvolvedDownloads][per_page]=10&amp;ctf[GetInvolvedDownloads][showall]=0&amp;ctf[GetInvolvedDownloads][sort]=&amp;ctf[GetInvolvedDownloads][sort_dir]=&amp;ctf[GetInvolvedDownloads][search]=&amp;ctf[GetInvolvedDownloads][filter]=&amp;ctf[GetInvolvedDownloads][view]=</h3><p>Line <strong>2762</strong> in <strong>/Applications/MAMP/htdocs/lyc2010/sapphire/core/model/DataObject.php</strong></p></div><div class="trace"><h3>Source</h3><pre><span>2753</span> 		foreach($records as $record) {
+<span>2754</span> 			if(empty($record['RecordClassName'])) {
+<span>2755</span> 				$record['RecordClassName'] = $record['ClassName'];
+<span>2756</span> 			}
+<span>2757</span> 			if(class_exists($record['RecordClassName'])) {
+<span>2758</span> 				$results[] = new $record['RecordClassName']($record);
+<span>2759</span> 			} else {
+<span>2760</span> 				if(!$baseClass) {
+<span>2761</span> 					user_error(&quot;Bad RecordClassName '{$record['RecordClassName']}' and &quot;
+<span>2762</span> <span class="error">						. &quot;\$baseClass not set&quot;, E_USER_ERROR);
+</span><span>2763</span> 				} else if(!is_string($baseClass) || !class_exists($baseClass)) {
+<span>2764</span> 					user_error(&quot;Bad RecordClassName '{$record['RecordClassName']}' and bad &quot;
+<span>2765</span> 						. &quot;\$baseClass '$baseClass not set&quot;, E_USER_ERROR);
+<span>2766</span> 				}
+<span>2767</span> 				$results[] = new $baseClass($record);
+<span>2768</span> 			}
+</pre><h3>Trace</h3><ul><li><b>Bad RecordClassName '' and $baseClass not set</b>
+<br />
+Line 2762 of DataObject.php</li>
+<li><b>DataObject-&gt;buildDataObjectSet(MySQLQuery,DataObjectSet)</b>
+<br />
+Line 745 of File.php</li>
+<li><b>File-&gt;instance_get(,,,,DataObjectSet)</b>
+<br />
+Line 2714 of DataObject.php</li>
+<li><b>DataObject::get(File)</b>
+<br />
+Line 118 of SortableDataObject.php</li>
+<li><b>SortableDataObject-&gt;onBeforeWrite(,,,,,,)</b>
+<br />
+Line 963 of Object.php</li>
+<li><b>Object-&gt;extend(onBeforeWrite,)</b>
+<br />
+Line 829 of DataObject.php</li>
+<li><b>DataObject-&gt;onBeforeWrite()</b>
+<br />
+Line 348 of File.php</li>
+<li><b>File-&gt;onBeforeWrite()</b>
+<br />
+Line 936 of DataObject.php</li>
+<li><b>DataObject-&gt;write()</b>
+<br />
+Line 153 of Upload.php</li>
+<li><b>Upload-&gt;load(Array,Uploads/)</b>
+<br />
+Line 170 of Upload.php</li>
+<li><b>Upload-&gt;loadIntoFile(Array,File,Uploads/)</b>
+<br />
+Line 291 of UploadifyField.php</li>
+<li><b>UploadifyField-&gt;upload(SS_HTTPRequest)</b>
+<br />
+Line 137 of RequestHandler.php</li>
+<li><b>RequestHandler-&gt;handleRequest(SS_HTTPRequest)</b>
+<br />
+Line 155 of RequestHandler.php</li>
+<li><b>RequestHandler-&gt;handleRequest(SS_HTTPRequest)</b>
+<br />
+Line 155 of RequestHandler.php</li>
+<li><b>RequestHandler-&gt;handleRequest(SS_HTTPRequest)</b>
+<br />
+Line 155 of RequestHandler.php</li>
+<li><b>RequestHandler-&gt;handleRequest(SS_HTTPRequest)</b>
+<br />
+Line 155 of RequestHandler.php</li>
+<li><b>RequestHandler-&gt;handleRequest(SS_HTTPRequest)</b>
+<br />
+Line 147 of Controller.php</li>
+<li><b>Controller-&gt;handleRequest(SS_HTTPRequest)</b>
+<br />
+Line 281 of Director.php</li>
+<li><b>Director::handleRequest(SS_HTTPRequest,Session)</b>
+<br />
+Line 124 of Director.php</li>
+<li><b>Director::direct(/admin/EditForm/field/GetInvolvedDownloads/UploadifyForm/field/UploadedFiles/upload)</b>
+<br />
+Line 127 of main.php</li>
+</ul></div></body></html>

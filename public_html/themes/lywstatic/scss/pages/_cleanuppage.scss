@@ -1,0 +1,34 @@
+article.CleanUpsPage{
+
+	margin-top: 190px;
+
+	@include lessThanTablet {
+		margin-top: 84px;
+	}
+
+	.Social{
+		@include span(12);
+		margin-bottom:15px;
+	}
+
+	.SecondaryBlock{
+		@include span(6);
+
+		.col-1{
+			@include span(3 of 6);
+		}
+		.col-2{
+			@include span(3 at 4 of 6 last);
+			form{
+				@include box-sizing(border-box);
+				fieldset{
+					@include box-sizing(border-box);
+				}
+			}
+		}
+	}
+	.PrimaryBlock{
+		@include span(6 at 7 of 12);
+	}
+
+}

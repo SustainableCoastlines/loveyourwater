@@ -1,0 +1,25 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'CalendarWidget',
+    'extends' => 'ViewableData',
+  ),
+  1 => 
+  array (
+    'className' => 'MonthNavigator',
+    'extends' => 'ViewableData',
+  ),
+  2 => 
+  array (
+    'className' => 'LiveCalendarWidget',
+    'extends' => 'ViewableData',
+  ),
+  3 => 
+  array (
+    'className' => 'LiveCalendarWidget_Controller',
+    'extends' => 'Controller',
+  ),
+);
+				$interfaces = array (
+);

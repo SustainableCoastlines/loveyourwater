@@ -1,0 +1,25 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'DataSheet',
+    'extends' => 'DataObject',
+  ),
+  1 => 
+  array (
+    'className' => 'DataSheet_SiteOwnerMessage',
+    'extends' => 'Email',
+  ),
+  2 => 
+  array (
+    'className' => 'DataSheet_SiteUserMessage',
+    'extends' => 'Email',
+  ),
+  3 => 
+  array (
+    'className' => 'DataImage_Image',
+    'extends' => 'Image',
+  ),
+);
+				$interfaces = array (
+);

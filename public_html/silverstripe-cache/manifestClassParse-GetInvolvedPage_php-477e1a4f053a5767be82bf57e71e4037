@@ -1,0 +1,15 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'GetInvolvedPage',
+    'extends' => 'Page',
+  ),
+  1 => 
+  array (
+    'className' => 'GetInvolvedPage_Controller',
+    'extends' => 'Page_Controller',
+  ),
+);
+				$interfaces = array (
+);

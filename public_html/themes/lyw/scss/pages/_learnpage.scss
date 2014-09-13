@@ -1,0 +1,199 @@
+article.LearnPage{
+
+	margin-top: 190px;
+
+	@include lessThanTablet {
+		margin-top: 84px;
+	}
+
+	.Social{
+		@include span(12);
+		margin-bottom:15px;
+	}
+
+	.ColumnHeader{
+		background-color: #158BCB;
+		color: #fff;
+		font-size: 1em;
+		padding:10px;
+		margin-bottom: 20px;
+	}
+
+	.TopBlock{
+		@include container(($desktopWidth - 1));
+		.LeftPart{
+			@include span(4);
+			p{
+				font-size: 1.4em;
+				color: #1066b2;
+				margin-bottom:20px;
+			}
+		}
+
+		.RightPart{
+			@include span(8 at 5 last);
+			@include box-sizing(border-box);
+
+			background: #FFF;
+			border: 1px solid #CCC;
+
+			.MessageRow{
+				border-bottom: 1px solid #CCC;
+				padding: 10px;
+				font-size: .8em;
+				color: $font-color-active;
+				line-height: 1;
+			}
+
+			.ActionRow{
+				img{
+					margin:15px 20px 15px 10px;
+					float:left;
+				}
+				.ActionText{
+					float:left;
+					font-size: .8em;
+					color: $font-color-active;
+					line-height: 76px;
+					margin-left: 25px;
+				}
+				.btn.learnpage{
+					margin-top: 23px;
+					margin-bottom: 5px;
+					margin-right: 31px;
+					float: right !important;
+					cursor: pointer !important;
+					background-color: #2c98f1;
+					color: #fff;
+					padding: 5px 20px 5px 20px;
+					text-decoration: none;
+
+					a{
+						font-size: .95em;
+						color: #FFF;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+
+		margin-bottom: 20px;
+	}
+
+	.SecondaryBlock{
+		@include span(8);
+		@include tablet {
+			@include span(12 last);
+		}
+
+		.intro-text{
+			p{
+				padding: 0 0 20px 0;
+				@include tablet {
+					font-size: 1.2em;
+					padding: 0 10px 20px 10px;
+				}
+			}
+		}
+
+		.downloads{
+
+			@include box-sizing(border-box);
+			line-height: 140%;
+			list-style-type: none;
+			background: #FFF;
+			padding: 0;
+			margin-bottom: 15px;
+			border: 1px solid #ccc;
+
+			.downloads-img img{
+				width: 100%;
+				border-bottom: 1px solid #CCC;
+			}
+
+			&:nth-child(odd){
+				@include span(4 of 8);
+				@include mobile{
+					@include span(8 of 8);
+				}
+			}
+
+			&:nth-child(even){
+				@include span(4 of 8 at 5 last);
+				@include mobile{
+					@include span(8 of 8);
+				}
+			}
+
+			a {
+				font-family:helvetica, arial, sans-serif;
+				text-decoration: none;
+				color:#1066B2;
+
+				h4{
+					font-size:14px;
+					line-height:16px;
+					padding: 0 0px 10px 70px;
+				}
+
+				p{
+					@include box-sizing(border-box);
+					height: 60px;
+					font-size:12px;
+					line-height: 14px;
+					padding: 15px;
+					border-top: 1px solid #ccc;
+					background-color: #F3F3F3;
+				}
+			}
+
+			.icon{
+				float:left;
+				width: 60px;
+				height: 60px;
+				img {
+					padding: 14px;
+				}
+				border-right: 1px solid #ccc;
+			}
+
+			.item-title{
+				height: 50px;
+				padding-top: 10px;
+			}
+
+			.icon-text{
+				margin: 0px 0 0 0;
+			}
+		}
+
+
+	}
+	.PrimaryBlock{
+		@include span(4 at 9);
+
+		.white-box{
+			padding: 0px;
+			margin-bottom: 15px;
+			.item-title{
+				height: 52px;
+				border-bottom: 1px solid #ccc;
+				padding: 10px 0 0 10px;
+			}
+
+			p{
+				@include box-sizing(border-box);
+				height:60px;
+				line-height: 14px;
+				padding: 10px 15px 0 15px;
+				background-color: #F3F3F3;
+				margin-top: 0;
+			}
+		}
+
+		@include tablet {
+			@include span(12 last);
+		}
+	}
+
+}

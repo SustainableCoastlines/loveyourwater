@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* MsO Fixes */
+
+p.MsoNormal, li.MsoNormal, div.MsoNormal { margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; }
+p.MsoHeader, li.MsoHeader, div.MsoHeader { margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; }
+p.MsoFooter, li.MsoFooter, div.MsoFooter { margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; }
+
+a:link, span.MsoHyperlink { color: #e27e09; text-decoration: underline; }
+a:visited, span.MsoHyperlinkFollowed { color: #e27e09; text-decoration: underline; }
+span.HeaderChar {  }
+span.FooterChar {  }
+div.Section1 { page: Section1; }
+ol { margin-bottom: 0cm; }
+ul { margin-bottom: 0cm; }

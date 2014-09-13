@@ -1,0 +1,467 @@
+#MainHeader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999999;
+
+	/*charts*/
+	#site-charts{
+		float:right;
+		display:block;
+	}
+
+	#site-charts > div{
+		padding:10px 20px;
+		display:inline-block;
+		float:left;
+		font-size:24px; color:#FFF;
+		text-align:right;
+		display:block;
+		border-right: solid 1px white;
+
+		&:last-child{
+			border-right: none;
+			padding-right: 0;
+			@include desktop {
+				padding-right: 20px;
+			}
+		}
+	}
+
+	a{
+		text-decoration: none;
+		color: $font-color-active;
+	}
+
+	#site-charts span{
+		font-size:10px;
+		float:right;
+		color:#FFF;
+		line-height: 20px;
+	}
+
+	#header-top {
+		background:#052F48 url(../img/header-top.jpg) no-repeat center top;
+		height:98px;
+		border-bottom:1px solid #CBCCCC;
+		clear:both;
+		@include lessThanTablet{
+			height:48px;
+		}
+		.header-top-inner{
+			@include container(($desktopWidth - 1));
+			padding-top: 15px;
+			@include lessThanTablet {
+				display:none;
+			}
+
+			.twitter-follow{
+				margin-top:10px;
+				margin-left:20px;
+				float:left;
+			}
+
+			.fb-like{
+				margin-top:10px;
+				float:left;
+			}
+		}
+
+		.MobileLogo{
+			display:none;
+			@include lessThanTablet{
+				display:block;
+				width: 80px;
+				float: left;
+				a.lyc-logo{
+					padding-top:5px;
+					display:block;
+					position:relative;
+					max-width: 60px;
+					img{
+						width:100%;
+					}
+				}
+			}
+		}
+
+		#TouchMenu{
+			display:none;
+			@include lessThanTablet{
+				width: 50px;
+				height: 48px;
+				display: block;
+				cursor: pointer;
+				float: right;
+				border: 0 none;
+				text-indent: -9999px;
+				overflow: hidden;
+				padding: 0;
+				background: {
+					image: url('../img/MobileButton.png');
+					repeat: no-repeat;
+					position: center center;
+					color: $mobilemenu-normalstate-color;
+				}
+
+				&:hover {
+					background-color: $mobilemenu-hoverstate-color;
+				}
+			}
+		}
+
+		.MobileMenu{
+			display:none;
+			@include lessThanTablet{
+				display:block;
+			}
+
+			ul{
+				li{
+					&:last-child{
+						border-bottom:solid 1px #ccc;
+					}
+				}
+			}
+		}
+
+		.MenuList{
+			display:none;
+			@include lessThanTablet{
+				display:none;
+				float: none;
+				clear: both;
+				overflow: hidden;
+				margin-top: 0;
+				position: relative;
+				top: auto;
+				left: auto;
+				width: 100%;
+				background-color: #FFFFFF;
+
+				.MenuItem{
+					float: none;
+					height: auto;
+					min-height: 40px;
+					margin: 0;
+					line-height: 20px;
+					a{
+						display: block;
+						padding: 10px 0 10px 17px !important;
+						border: 1px solid #e0e0e0;
+						border-bottom: 0 none !important;
+						line-height: 20px !important;
+						font-size: 1.0em;
+						text-transform: uppercase;
+						color: $font-color-active;
+						text-decoration: none
+					}
+
+					&> a{
+						background-image: url("../img/MobileArrows.png");
+						background-position: right -384px;
+						background-repeat: no-repeat;
+
+						&:hover{
+							background-color: #f7f7f7;
+							background-position: right 16px;
+							color: $font-color-hover-medium;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#header-main{
+		background:#FFF;
+		border-bottom:1px solid #CBCCCC;
+		@include lessThanTablet {
+			display:none;
+		}
+		.header-main-inner{
+			@include container(($desktopWidth - 1));
+
+			.Gapper{
+				@include span(3);
+				height:20px;
+				a.lyc-logo{
+					bottom:1.8em;
+					display:block;
+					position:relative;
+					max-width: 200px;
+					img{
+						width:100%;
+						min-width: 130px;
+					}
+					@include tablet {
+						bottom:.7em;
+					}
+				}
+			}
+
+			ul#top-nav{
+				@include span(5 at 4);
+				li{
+					float:left;
+					border-left:1px solid #CCC;
+					a{
+						display:inline-block;
+						font-size:20px;
+						line-height:16px;
+						text-decoration:none;
+						color:#1066B2;
+						padding:15px 10px;
+
+						@include tablet {
+							font-size:14px;
+							font-weight: bold;
+							width: 47px;
+						}
+
+						&:hover{
+							background:#1066B2;
+							color:#FFF;
+						}
+						.description{
+							font-size:11px;
+							line-height:10px;
+							display:inline-block;
+							font-weight:normal;
+						}
+					}
+					&:last-child{
+						border-right:1px solid #CCC;
+					}
+				}
+			}
+
+			ul#admin-nav{
+				@include span(4 at 5);
+				margin:0;
+				padding:0;
+				float:right;
+
+				li{
+					margin-top:20px;
+					float:right;
+					line-height:19px;
+					margin-left:8px;
+					padding:0px 0;
+					font-size:10px;
+					display:block;
+
+					a{
+						color:#1066B2;
+						padding-right:8px;
+						text-decoration:none;
+						&:hover{
+							text-decoration:underline;
+						}
+					}
+
+					&.hasDropDown{
+						width: 52px;
+						height:19px;
+						padding: 0 9px 5px 0;
+						position: relative;
+						background: {
+							image: url("../img/pager_bot_b_v2.png");
+							position: right 2px;
+							repeat: no-repeat;
+						}
+
+						a{
+							padding-right:5px;
+							&:hover{
+								text-decoration:none;
+							}
+						}
+					}
+				}
+
+				li.ProfileImage{
+					margin-top:0;
+
+					.ProfilePhoto{
+						background: {
+							image: url("../img/profileholder.jpg");
+							repeat: no-repeat;
+						}
+						height: 62px;
+						width: 62px;
+						overflow: hidden;
+						text-indent: -999999999em;
+					}
+
+					&.Open{
+						.ProfilePhoto{
+							background: {
+								image: url("../img/toggle-profile.png");
+								repeat: no-repeat;
+							}
+						}
+					}
+				}
+
+				li.ProfileName{
+					color: $font-color-active;
+					padding-right: 10px;
+				}
+			}
+		}
+	}
+
+	.UserStatsSection{
+		display:none;
+	}
+
+	.ProfileStats{
+		background: #F1EEE4 url("../img/background_repeat.png") repeat top left !important;
+		.InnerContent{
+			@include container(($desktopWidth - 1));
+			height: 120px;
+
+			.Group01{
+				padding-top: 48px;
+				@include span(3);
+				&>div{
+					float: left;
+					font-size: 24px;
+					color: $font-color-active;
+					text-align: left;
+					display: block;
+					padding-right: 35px;
+
+					span{
+						font-size: 10px;
+						line-height: 20px;
+						display:block;
+					}
+				}
+				.Attendees{
+					padding-right: 50px;
+					border-right:1px solid $font-color-active;
+				}
+			}
+
+			.Group02{
+				padding-top: 48px;
+				@include span(5 at 4);
+				&>div{
+					float: left;
+					font-size: 24px;
+					color: $font-color-active;
+					text-align: left;
+					display: block;
+					padding-right: 40px;
+
+					span{
+						font-size: 10px;
+						line-height: 20px;
+						display:block;
+					}
+				}
+				.Rubish{
+					padding-right: 50px;
+					border-right:1px solid $font-color-active;
+				}
+			}
+
+			.Group03{
+				@include span(4 at 9 last);
+				.Joined{
+					padding-top: 48px;
+					float: left;
+					font-size: 24px;
+					color: $font-color-active;
+					text-align: left;
+					display: block;
+					padding-right: 20px;
+
+					span{
+						font-size: 10px;
+						line-height: 20px;
+						display:block;
+					}
+				}
+				.ProfileThumb{
+					img{
+						float:right;
+					}
+				}
+			}
+		}
+	}
+
+	.UserMenu{
+		background:#FFF;
+		border-bottom:1px solid #CBCCCC;
+
+		.InnerContent{
+			@include container(($desktopWidth - 1));
+
+			.LeftSide{
+				@include span(5);
+				@include tablet {
+					@include span(12);
+				}
+				.PresenterLogo{
+					float:left;
+					padding: 10px 10px 10px 0px;
+					img{
+						display: block;
+					}
+				}
+				.PresenterDescription{
+					height: 60px;
+					display: table;
+					p{
+						display: table-cell;
+						vertical-align: middle;
+						color:$font-color-active;
+						font-size: .9em;
+					}
+				}
+			}
+			.RightSide{
+				@include span(7 at 6 last);
+				@include tablet {
+					@include span(12);
+				}
+				ul{
+					float:right;
+					padding: 17px 0;
+					@include tablet {
+						float:none;
+					}
+					li{
+						display: inline-block;
+						color:$font-color-active;
+						font-size: .9em;
+
+						&:after{
+							content: '\00B7';
+							font-weight: bold;
+							padding:0 5px;
+						}
+
+						&:last-child{
+							&:after{
+								content: '';
+								padding:0;
+							}
+						}
+						a{
+							&:hover{
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,133 @@
+article.AboutPage{
+
+	margin-top: 190px;
+
+	@include lessThanTablet {
+		margin-top: 84px;
+	}
+
+	.Social{
+		@include span(12);
+		margin-bottom:15px;
+	}
+
+	.SecondaryBlock{
+		@include span(6);
+		@include tablet {
+			@include span(12 last);
+		}
+
+		.about-google-map .map-wrap iframe{
+			width: 100% !important;
+			height: 250px !important;
+		}
+
+		.intro-text{
+			p{
+				padding: 0 0 20px 0;
+				@include tablet {
+					font-size: 1.2em;
+					padding: 0 10px 20px 10px;
+				}
+
+				a{
+					color: #F7931E;
+					text-decoration: none;
+				}
+			}
+		}
+
+		.organisation{
+			@include box-sizing(border-box);
+
+			background: #fff;
+			border: 1px solid #cccccc;
+			padding: 10px;
+			margin-bottom: 15px;
+
+			details {
+				height: 24px;
+				margin: 0px;
+				padding: 0px;
+			}
+
+			.organisation-img img{
+				width: 100%;
+				border: 1px solid #cccccc;
+			}
+
+			.organisation-details{
+				p.organisation-country{
+					float: left;
+					color: #1066B2;
+					font-size: 13px;
+					font-weight: 400;
+					line-height: 17px;
+					margin: 0px;
+					margin-left: 8px;
+					margin-bottom: 8px;
+				}
+				.link-to-site{
+					float: right;
+					margin-right: 8px;
+					color: #1066B2;
+					font-size: 13px;
+					font-weight: bold;
+					line-height: 17px;
+					text-decoration: none;
+					margin-bottom: 8px;
+				}
+			}
+
+
+			&:nth-child(odd){
+				@include span(3 of 6);
+				@include mobile{
+					@include span(6 of 6);
+				}
+			}
+
+			&:nth-child(even){
+				@include span(3 of 6 at 4 last);
+				@include mobile{
+					@include span(6 of 6);
+				}
+			}
+
+			h4 {
+				color: $font-color-active;
+				font-size: 14px;
+				line-height: 16px;
+				margin-bottom: 8px;
+				margin-left: 10px;
+				margin-right: 10px;
+				min-height: 30px;
+			}
+		}
+
+		.about-google-map h4 {
+			font-family: helvetica, arial, sans-serif;
+			color: #1066B2;
+			font-size: 14px;
+			line-height: 16px;
+			margin-bottom: 8px;
+			margin-right: 10px;
+		}
+
+		.map-description p {
+			font-family: helvetica, arial, sans-serif;
+			color: #1066B2;
+			font-size: 12px;
+			line-height: 16px;
+			margin-bottom: 8px;
+		}
+	}
+	.PrimaryBlock{
+		@include span(6 at 7);
+
+		@include tablet {
+			@include span(12 last);
+		}
+	}
+
+}

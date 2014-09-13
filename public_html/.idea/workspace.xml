@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2aa4e14-0112-4c9a-b801-1a93823c060f" name="Default" comment="" />
+    <ignored path="loveyourcoast.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="loveyourcoast" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.31285623">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="Page.ss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/lyw/templates/Page.ss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="35" column="38" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1377">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_home.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/lyw/scss/pages/_home.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="5899">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_form.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/lyw/scss/layout/_form.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="23" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="323">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/lyw/scss/main.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="12" column="34" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="340">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_header.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/lyw/scss/layout/_header.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="5" column="20" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="4930">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_footer.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/lyw/scss/layout/_footer.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="1" column="0" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2771">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/lyw/css/layout.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="159" column="24" selection-start="2944" selection-end="2944" vertical-scroll-proportion="0.0" vertical-offset="2347" max-vertical-offset="12869">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_learnpage.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/lyw/scss/pages/_learnpage.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="561">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_cleanuppage.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/lyw/scss/pages/_cleanuppage.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="20" selection-start="8" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CleanUpsPage.ss" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/themes/lyw/templates/Layout/CleanUpsPage.ss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="29" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2057">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="HomePage.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mysite/code/HomePage.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="91" column="65" selection-start="3023" selection-end="3023" vertical-scroll-proportion="-59.5" vertical-offset="0" max-vertical-offset="1836">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Page.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mysite/code/Page.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="288" column="40" selection-start="10372" selection-end="10372" vertical-scroll-proportion="-9.153846" vertical-offset="4658" max-vertical-offset="7072">
+                  <folding>
+                    <marker date="1399919647009" expanded="true" signature="8100:8234" placeholder="..." />
+                    <marker date="1399919647009" expanded="false" signature="8171:8216" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="EditForm.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mysite/code/forms/EditForm.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="37" column="27" selection-start="1679" selection-end="1679" vertical-scroll-proportion="-11.461538" vertical-offset="331" max-vertical-offset="2601">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SimpleHTMLEditorField.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/dataobject_manager/code/simple_html_editor_field/SimpleHTMLEditorField.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="39" column="13" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.91334486" vertical-offset="136" max-vertical-offset="1700">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_mixins.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/lyw/scss/includes/_mixins.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="561">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_settings.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/lyw/scss/includes/_settings.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="12" column="0" selection-start="169" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="323">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HomePage.ss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/lyw/templates/Layout/HomePage.ss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2414">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Header.ss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/lyw/templates/Includes/Header.ss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="34" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1241">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mysite/javascript/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="3" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LearnPage.ss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/lyw/templates/Layout/LearnPage.ss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="24" column="4" selection-start="636" selection-end="666" vertical-scroll-proportion="-6.6923075" vertical-offset="234" max-vertical-offset="765">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/mysite/dbconn.php" />
+        <option value="$PROJECT_DIR$/mysite/_config.php" />
+        <option value="$PROJECT_DIR$/googlemapselectionfield/javascript/GoogleMapDisplay.js" />
+        <option value="$PROJECT_DIR$/mysite/code/objects/CleanUpGroup.php" />
+        <option value="$PROJECT_DIR$/googlemapselectionfield/javascript/GoogleMapDisplayMultiple.js" />
+        <option value="$PROJECT_DIR$/themes/lyc2012/templates/Layout/CleanUpsPage.ss" />
+        <option value="$PROJECT_DIR$/themes/lyc2012/templates/Layout/CleanUpsPage_filter.ss" />
+        <option value="$PROJECT_DIR$/mysite/code/CreatePage.php" />
+        <option value="$PROJECT_DIR$/mysite/code/forms/RegisterForm.php" />
+        <option value="$PROJECT_DIR$/themes/lyc2012/templates/Layout/CreatePage.ss" />
+        <option value="$PROJECT_DIR$/mysite/code/forms/CreateForm.php" />
+        <option value="$PROJECT_DIR$/themes/lyc2012/templates/Layout/HomePage.ss" />
+        <option value="$PROJECT_DIR$/themes/lyw/css/typography.css" />
+        <option value="$PROJECT_DIR$/themes/lyw/scss/typography.scss" />
+        <option value="$PROJECT_DIR$/themes/lyw/css/main.css" />
+        <option value="$PROJECT_DIR$/themes/lyw/scss/thirdparty/_core.scss" />
+        <option value="$PROJECT_DIR$/themes/lyw/templates/Includes/TallyCharts.ss" />
+        <option value="$PROJECT_DIR$/themes/lyw/config.rb" />
+        <option value="$PROJECT_DIR$/themes/lyw/scss/includes/_mixins.scss" />
+        <option value="$PROJECT_DIR$/themes/lyw/templates/Layout/Page.ss" />
+        <option value="$PROJECT_DIR$/themes/lyw/scss/layout/_layout.scss" />
+        <option value="$PROJECT_DIR$/themes/lyw/templates/Includes/Header.ss" />
+        <option value="$PROJECT_DIR$/themes/lyw/templates/Includes/Footer.ss" />
+        <option value="$PROJECT_DIR$/themes/lyw/scss/includes/_settings.scss" />
+        <option value="$PROJECT_DIR$/themes/lyw/css/layout.css" />
+        <option value="$PROJECT_DIR$/themes/lyc2012/templates/Page.ss" />
+        <option value="$PROJECT_DIR$/themes/lyw/templates/Page.ss" />
+        <option value="$PROJECT_DIR$/themes/lyw/scss/layout/_footer.scss" />
+        <option value="$PROJECT_DIR$/themes/lyw/templates/Layout/HomePage.ss" />
+        <option value="$PROJECT_DIR$/mysite/javascript/main.js" />
+        <option value="$PROJECT_DIR$/mysite/code/HomePage.php" />
+        <option value="$PROJECT_DIR$/themes/lyw/scss/layout/_form.scss" />
+        <option value="$PROJECT_DIR$/themes/lyw/scss/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/themes/lyw/scss/pages/_home.scss" />
+        <option value="$PROJECT_DIR$/themes/lyw/templates/Layout/LearnPage.ss" />
+        <option value="$PROJECT_DIR$/themes/lyw/scss/pages/_learnpage.scss" />
+        <option value="$PROJECT_DIR$/themes/lyw/scss/main.scss" />
+        <option value="$PROJECT_DIR$/themes/lyw/scss/pages/_cleanuppage.scss" />
+        <option value="$PROJECT_DIR$/themes/lyw/templates/Layout/CleanUpsPage.ss" />
+        <option value="$PROJECT_DIR$/mysite/code/Page.php" />
+        <option value="$PROJECT_DIR$/mysite/code/forms/EditForm.php" />
+        <option value="$PROJECT_DIR$/dataobject_manager/code/simple_html_editor_field/SimpleHTMLEditorField.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>File Watchers</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>File Watchers</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loveyourcoast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loveyourcoast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loveyourcoast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="Errors" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../00webtorquesites/webtorque" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\01techrussites\loveyourcoast\themes\lyw\scss\pages" />
+      <recent name="C:\wamp\www\01techrussites\loveyourcoast\themes\lyc2012\img" />
+      <recent name="C:\wamp\www\01techrussites\loveyourcoast\themes\lyw\scss" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\01techrussites\loveyourcoast\themes\lyw\img" />
+      <recent name="C:\wamp\www\01techrussites\loveyourcoast\themes\lyw\scss\thirdparty" />
+      <recent name="C:\wamp\www\01techrussites\loveyourcoast\themes\lyw\scss\pages" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="8a9f8f14-6dee-431f-90c7-4c430fa87d19" server_name="ccf">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2aa4e14-0112-4c9a-b801-1a93823c060f" name="Default" comment="" />
+      <created>1399487982644</created>
+      <updated>1399487982644</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13209495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32920536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15921193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mysite/code/forms/CreateForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="105" selection-start="1084" selection-end="1084" vertical-scroll-proportion="-11.769231" vertical-offset="51" max-vertical-offset="3026" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/code/objects/CleanUpGroup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="436" column="13" selection-start="13818" selection-end="13818" vertical-scroll-proportion="0.15438597" vertical-offset="7324" max-vertical-offset="8245" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyc2012/templates/Layout/CreatePage.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="37" selection-start="554" selection-end="554" vertical-scroll-proportion="0.59395975" vertical-offset="37" max-vertical-offset="1241" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/code/CreatePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="25" selection-start="2596" selection-end="2596" vertical-scroll-proportion="0.3508772" vertical-offset="956" max-vertical-offset="1802" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/code/CleanUpsPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="5" selection-start="5159" selection-end="5159" vertical-scroll-proportion="1.4614004" vertical-offset="1328" max-vertical-offset="7871" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyc2012/templates/Layout/CleanUpsPage_filter.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="37" selection-start="5329" selection-end="5349" vertical-scroll-proportion="0.45637584" vertical-offset="1581" max-vertical-offset="2550" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyc2012/templates/Layout/CleanUpsPage_cleanup.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="163" selection-end="163" vertical-scroll-proportion="0.11663808" vertical-offset="0" max-vertical-offset="2584" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/Scripts/custom.jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="941" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/css/cleanup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.10839532" vertical-offset="0" max-vertical-offset="941" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/css/form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11101" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/css/jflow.style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/templates/Includes/PageTop.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="237" selection-end="237" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/css/layout-sandra.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="15" selection-start="395" selection-end="403" vertical-scroll-proportion="-7.6153846" vertical-offset="227" max-vertical-offset="16303" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/scss/normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="7" selection-start="347" selection-end="355" vertical-scroll-proportion="0.43272728" vertical-offset="0" max-vertical-offset="7072" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/scss/thirdparty/_html5.reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="506" selection-end="506" vertical-scroll-proportion="0.39253998" vertical-offset="0" max-vertical-offset="3162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/scss/thirdparty/_core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/scss/typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/templates/Includes/TallyCharts.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="10" selection-start="104" selection-end="104" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="323" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="26" selection-start="351" selection-end="351" vertical-scroll-proportion="0.371875" vertical-offset="0" max-vertical-offset="640" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/javascript/Pagination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="8" selection-start="173" selection-end="173" vertical-scroll-proportion="0.17551622" vertical-offset="0" max-vertical-offset="678" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/templates/Includes/Footer.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="74" selection-start="314" selection-end="314" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="629" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyc2012/templates/Layout/HomePage.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="215" selection-end="215" vertical-scroll-proportion="0.16639479" vertical-offset="0" max-vertical-offset="1496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyc2012/templates/Includes/PageTop.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="652" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/templates/Layout/Page.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="37" selection-start="92" selection-end="92" vertical-scroll-proportion="0.05320814" vertical-offset="0" max-vertical-offset="1054" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyc2012/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="442" column="15" selection-start="8477" selection-end="8477" vertical-scroll-proportion="0.4257576" vertical-offset="7233" max-vertical-offset="17748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/img/s1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/scss/layout/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="22" selection-start="61" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="221" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/img/home-icons/magnifying_glass.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyc2012/templates/Page.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="85" selection-start="170" selection-end="278" vertical-scroll-proportion="0.23868954" vertical-offset="0" max-vertical-offset="1496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyc2012/templates/Layout/Page_results.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="24" selection-start="2944" selection-end="2944" vertical-scroll-proportion="0.0" vertical-offset="2347" max-vertical-offset="12869">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/scss/layout/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2771">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/code/forms/EventFilterForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/templates/Page.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="38" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/javascript/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="3" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/scss/layout/_form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/scss/includes/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/scss/includes/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="169" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/templates/Includes/Header.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="34" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/scss/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="4930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/scss/pages/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="5899">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/templates/Layout/HomePage.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/templates/Layout/LearnPage.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="4" selection-start="636" selection-end="666" vertical-scroll-proportion="-6.6923075" vertical-offset="234" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/scss/pages/_learnpage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/scss/pages/_cleanuppage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="8" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/lyw/templates/Layout/CleanUpsPage.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="29" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/code/HomePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="65" selection-start="3023" selection-end="3023" vertical-scroll-proportion="-59.5" vertical-offset="0" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/code/Page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="288" column="40" selection-start="10372" selection-end="10372" vertical-scroll-proportion="-9.153846" vertical-offset="4658" max-vertical-offset="7072">
+          <folding>
+            <marker date="1399919647009" expanded="true" signature="8100:8234" placeholder="..." />
+            <marker date="1399919647009" expanded="false" signature="8171:8216" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/code/forms/EditForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="27" selection-start="1679" selection-end="1679" vertical-scroll-proportion="-11.461538" vertical-offset="331" max-vertical-offset="2601">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataobject_manager/code/simple_html_editor_field/SimpleHTMLEditorField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="13" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.91334486" vertical-offset="136" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

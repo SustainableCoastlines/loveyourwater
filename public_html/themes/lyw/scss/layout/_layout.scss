@@ -1,0 +1,17 @@
+article.Layout {
+	@include container(($desktopWidth - 1));
+
+	margin-top: 164px;
+	@include lessThanTablet {
+		margin-top: 48px;
+	}
+
+	&.GenericTwo{
+		margin-top: 200px;
+
+		.Social{
+			@include span(12);
+			margin-bottom:15px;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'EventEmail',
+    'extends' => 'DataObject',
+  ),
+  1 => 
+  array (
+    'className' => 'SendEmail_EventMessage',
+    'extends' => 'Email',
+  ),
+  2 => 
+  array (
+    'className' => 'joinEmail_EventMessage',
+    'extends' => 'Email',
+  ),
+);
+				$interfaces = array (
+);

@@ -1,0 +1,15 @@
+[23-Jun-2011 23:50:33] PHP Fatal error:  Call to a member function getManyManyComponents() on a non-object in /home/loveyour/public_html/mysite/code/forms/SendForm.php on line 72
+[10-Oct-2011 07:36:05] PHP Fatal error:  Call to a member function getManyManyComponents() on a non-object in /home/loveyour/public_html/mysite/code/forms/SendForm.php on line 72
+[21-Jan-2012 03:17:23] PHP Fatal error:  Out of memory (allocated 58195968) (tried to allocate 35 bytes) in /home/loveyour/public_html/sapphire/core/model/DataObjectSet.php on line 69
+[02-Mar-2012 08:13:49] PHP Fatal error:  Call to a member function getManyManyComponents() on a non-object in /home/loveyour/public_html/mysite/code/forms/SendForm.php on line 72
+[28-Mar-2012 13:40:15] PHP Fatal error:  Call to a member function getManyManyComponents() on a non-object in /home/loveyour/public_html/mysite/code/forms/SendForm.php on line 72
+[30-Jul-2012 16:46:16] PHP Warning:  require_once(sapphire/main.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/loveyour/public_html/index.php on line 63
+[30-Jul-2012 16:46:16] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'sapphire/main.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/loveyour/public_html/index.php on line 63
+[24-Dec-2013 04:12:26] PHP Fatal error:  Cannot use string offset as an array in /home2/loveyour/public_html/event_calendar/lang/en_US.php on line 12
+[24-Dec-2013 04:12:53] PHP Fatal error:  Cannot use string offset as an array in /home2/loveyour/public_html/event_calendar/lang/en_US.php on line 12
+[03-Jan-2014 01:28:06] PHP Fatal error:  Cannot use string offset as an array in /home2/loveyour/public_html/event_calendar/lang/en_US.php on line 12
+[03-Jan-2014 01:29:03] PHP Fatal error:  Cannot use string offset as an array in /home2/loveyour/public_html/event_calendar/lang/en_US.php on line 12
+[23-Jan-2014 01:37:11] PHP Fatal error:  Cannot use string offset as an array in /home2/loveyour/public_html/event_calendar/lang/en_US.php on line 12
+[23-Jan-2014 01:37:12] PHP Fatal error:  Cannot use string offset as an array in /home2/loveyour/public_html/event_calendar/lang/en_US.php on line 12
+[27-Feb-2014 05:15:05] PHP Fatal error:  Cannot use string offset as an array in /home2/loveyour/public_html/event_calendar/lang/en_US.php on line 12
+[27-Feb-2014 05:15:52] PHP Fatal error:  Cannot use string offset as an array in /home2/loveyour/public_html/event_calendar/lang/en_US.php on line 12

@@ -1,0 +1,3 @@
+<div class="fb-like">
+    <iframe src="//www.facebook.com/plugins/like.php?href={$SiteConfig.FacebookLink}&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=verdana&amp;height=21&amp;appId=361138347272876" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+</div>

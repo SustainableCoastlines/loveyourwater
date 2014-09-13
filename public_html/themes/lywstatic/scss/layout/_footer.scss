@@ -1,0 +1,246 @@
+#MainFooter{
+	#footer{
+		width:100%;
+		color:#FFF;
+	}
+
+	.footer-mask-one{
+		background:#FFFFFF;
+		border-top:1px solid #CCCCCC;
+		border-bottom:1px solid #CCCCCC;
+
+		#InstaGramMessageHolder{
+			@include container(($desktopWidth - 1));
+			color: $font-color-active;
+			height: 72px;
+			img{
+				margin-top: 22px;
+				float:left;
+			}
+			span{
+				font-size: .9em;
+				padding-top: 28px;
+				line-height: 1;
+				@include mobile {
+					padding-top: 21px;
+				}
+				display: block;
+			}
+		}
+	}
+
+	#InstaGramCarouselHolder{
+		@include container(($desktopWidth - 1));
+
+		.SmallerFit{
+			float:left;
+			width:90%;
+
+			@include mobile{
+				width:80%;
+			}
+		}
+
+		.customNavigation{
+			display:inline-flex;
+			float:left;
+			width:5%;
+			height: 176px; 
+			@include mobile{
+				width:10%;
+			}
+			a{
+				margin: auto 0;
+				display:block;
+				width: 100%;
+				text-align: center;
+
+				&.btn {
+					margin-left:0;
+				}
+			}
+		}
+	}
+
+	#footer-top{
+		background:#FFFFFF;
+		border-top:1px solid #CCCCCC;
+		border-bottom:1px solid #CCCCCC;
+
+		.footer-inner{
+
+			h1,h2,h3,h4,p{
+				color:#FFF;
+			}
+			h4{
+				font-size:14px;
+				margin-bottom:18px;
+			}
+
+			a{
+				color:#FFF;
+				text-decoration:none;
+				font-weight:bold;
+
+				&:hover {
+					text-decoration:underline;
+				}
+			}
+
+			@include container(($desktopWidth - 1));
+
+			.col1{
+
+				@include span(7 of 12);
+				@include box-sizing(border-box);
+
+				@include lessThanTablet{
+					@include span(12);
+				}
+
+				.faq{
+					width:auto;
+					margin-top:15px;
+					padding-left:42px;
+
+					font-size:16px;
+					font-weight:bold;
+					text-decoration:none;
+					color:#1066B2;
+					line-height:42px;
+
+					display:inline-block;
+					height:40px;
+
+					background: url(../img/faq-icon.jpg) no-repeat center left;
+
+					&:hover{
+						color:$font-color-active;
+					}
+				}
+			}
+
+			.col2{
+				@include span(5 of 12 last);
+
+				@include lessThanTablet{
+					@include span(12 of 12 last);
+				}
+
+				.connect{
+
+					@include span(4 of 5);
+
+					.footer-links{
+						color: $font-color-active;
+						text-decoration: none;
+						font-size: .7em;
+						float:right;
+
+						li {
+							float: left;
+							margin-right:10px;
+						}
+
+						a{
+							color: $font-color-active;
+						}
+
+					}
+
+					a {
+						float:right;
+						margin: 20px 0 0 10px;
+					}
+				}
+
+				.top{
+					@include span(1 of 5 last);
+					@include box-sizing(border-box);
+					border-left: 1px solid #CCCCCC;
+					border-right: 1px solid #CCCCCC;
+					text-decoration:none;
+					color:#1066B2;
+					font-size:20px;
+					line-height:16px;
+					padding:18px 5px;
+
+					span {
+						font-size: .7em;
+					}
+				}
+			}
+		}
+	}
+
+	#footer-bottom{
+		.footer-inner{
+			@include container(($desktopWidth - 1));
+			.footer-col{
+				@include span(4);
+				@include box-sizing(border-box);
+				padding: 0 20px;
+
+				&.last{
+					@include span(4 at 9 of 12);
+				}
+
+				@include lessThanTablet{
+					@include span(12);
+					margin-bottom:30px;
+					&.last{
+						@include span(12 of 12);
+					}
+				}
+
+			}
+
+			.col-full-width{
+				margin-top:30px;
+				@include span(12);
+				.right{
+					@include lessThanTablet{
+						display:none;
+					}
+				}
+			}
+
+			p.help{
+				span{
+					line-height:32px !important;
+					height:32px;
+					display:inline-block;
+					padding-left:42px;
+					margin-left:20px;
+					background: url(../img/lifering.png) no-repeat center left;
+				}
+
+				a{
+					line-height:32px;
+
+					&:hover{
+						text-decoration:underline;
+					}
+				}
+			}
+
+			h1,h2,h3,h4,p{
+				color:#FFF;
+			}
+			h4{
+				font-size:14px;
+				margin-bottom:18px;
+			}
+
+			a{
+				color:#FFF;
+				text-decoration:none;
+				font-weight:bold;
+
+				&:hover {
+					text-decoration:underline;
+				}
+			}
+		}
+	}
+}

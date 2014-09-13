@@ -1,0 +1,21 @@
+$susy: (
+	columns: 12,
+	gutter: 1/4,
+	global-box-sizing: border-box,
+	math: fluid,
+	output: float,
+);
+
+
+$font-color-active: #1066B2;
+$font-color-hover-medium: #72CDE1;
+
+$icon-background-color: #1066B2;
+$text-background-color: #FFFFFF;
+
+$table-message-background: #F3F3F3;
+
+$mobilemenu-normalstate-color: #C0C3C4;
+$mobilemenu-hoverstate-color: $icon-background-color;
+
+$button-color: #2C98F1;
